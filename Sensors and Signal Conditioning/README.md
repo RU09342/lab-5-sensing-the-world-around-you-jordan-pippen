@@ -14,10 +14,10 @@ The first component tested was a photoresistor. A photoresistor is a light depen
 
 The 4.7k resistor is placed there to act as a voltage divider so that, even when the resistance of the photoresistor is low, the entire 3.3V from the source is not present at Vout.
 ### Light On:
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/Light_ON_resistor.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/Light_ON_resistor.jpg)
 
 ### Light Off:
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/Light_OFF_resistor.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/Light_OFF_resistor.jpg)
 When the light is turned off the output voltage drops from 96 (150 in decimal) to 0D (13 in decimal). This shows that the phototransistor circuit is working properly and the output voltage is successfully being sent and received by UART.
 
 ## Photodiode
