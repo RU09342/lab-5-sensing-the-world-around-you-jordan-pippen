@@ -8,9 +8,9 @@ Three types of transducer sensors need to be used; voltage, current, and resista
 ## Photoresistor
 The first component tested was a photoresistor. A photoresistor is a light dependent resistor, in other words, it is a light controlled variable resistor. As incident light intensity intensifies, the resistance of the photoresistor decreases. This means that as incident light intensifies, the recorded output voltage should be higher. Below is a schematic of the built circuit.
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/photoresistor%20schematic.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/photoresistor%20schematic.jpg)
  
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/photoresistor%20circuit.JPG)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/photoresistor%20circuit.JPG)
 
 The 4.7k resistor is placed there to act as a voltage divider so that, even when the resistance of the photoresistor is low, the entire 3.3V from the source is not present at Vout.
 ### Light On:
@@ -24,26 +24,26 @@ When the light is turned off the output voltage drops from 96 (150 in decimal) t
 A photodiode is a semiconductor device that converts photons into an electrical current. A photodiode is a p-n junction diode. When a photon of sufficient light enters the diode, 1.1eV (the bandgap of silicon), an electron-hole pair is created. This process is also called the photoelectric effect.
 As incident light intensifies, current is able to run through the diode. Because of the configuration of the circuit, as seen below, this means that as incident light intensifies, current will be able to run to ground, so the output voltage will decrease. Alternatively, as incident light decreases, the output voltage will be greater.
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/photodiode%20schematic.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/photodiode%20schematic.jpg)
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/photodiode%20circuit.JPG)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/photodiode%20circuit.JPG)
  
 ### Light On:
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/Light_ON_Diode.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/Light_ON_Diode.jpg)
 
 ### Light Off:
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/LIGHT_OFF_DIODE.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LIGHT_OFF_DIODE.jpg)
 When the light is turned off the output voltage increases from 8B (139 in decimal) to FC (252 in decimal). This shows that the photodiode circuit is working properly and the output voltage is successfully being sent and received by UART.
 
 ## Phototransistor
 A phototransistor is simply a light-sensitive transistor and is very similar to a photodiode. As photons hit the phototransistor, electrons are generated in the base collector junction and are injected into the base. As this occurs, the current is amplified by the transistors at a magnitude equal to the phototransistors gain. Phototransistors are no more efficient at detecting low levels of light as opposed to photodiodes but have a significantly longer response time. The schematic for the phototransistor diode may be viewed below. Because only the gate and drain pins were used, the phototransistor is acting as a photodiode. Further, the circuit has an op amp in a noninverting configuration witha gain equal to 3. This will amplify the signal and reduce noise.
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/Phototransistor%20schematic.jpg)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/Phototransistor%20schematic.jpg)
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/phototransistor%20circuit.JPG)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/phototransistor%20circuit.JPG)
 
 ### Light On:
-![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/LIGHT_ON_TRANSISTOR.jpg)
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LIGHT_ON_TRANSISTOR.jpg)
 
 ### Light Off:
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/LIGHT_OFF_TRANSISTOR.jpg)
