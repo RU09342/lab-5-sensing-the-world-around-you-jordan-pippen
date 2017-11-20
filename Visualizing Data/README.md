@@ -18,14 +18,14 @@ schematic of the built circuit.
 
  ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/Phototransistor%20schematic.jpg)
 
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/photoresistor%20circuit.JPG)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/photoresistor%20circuit.JPG)
 The 4.7k resistor is placed there to act as a voltage divider so that, even when the resistance of
 the photoresistor is low, the entire 3.3V from the source is not present at Vout.
 
 ### Light On:
  ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LCD/LIGHT_ON.JPG)
 ### Light Off:
- ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/LCD/LIGHT_OFF.JPG)
+ ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LCD/LIGHT_OFF.JPG)
 When the light is covered the output voltage drops from 3139 to 1338. This shows that the
 phototransistor circuit is working properly and the output voltage is successfully being sent and
 read across the LCD Display.
