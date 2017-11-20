@@ -46,7 +46,7 @@ A phototransistor is simply a light-sensitive transistor and is very similar to 
 ![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LIGHT_ON_TRANSISTOR.jpg)
 
 ### Light Off:
-![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B)/LIGHT_OFF_TRANSISTOR.jpg)
+![alt text](https://github.com/RU09342/lab-5-sensing-the-world-around-you-jordan-pippen/blob/master/Pics%20%3B\)/LIGHT_OFF_TRANSISTOR.jpg)
 When the light is turned off the output voltage increases from 5E (94 in decimal) to C1 (193 in decimal). This shows that the phototransistor circuit is working properly and the output voltage is successfully being sent and received by UART.
 
 ## How to Implement Code
